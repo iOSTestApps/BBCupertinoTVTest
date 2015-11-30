@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83807E4C1C0BFB760033BF34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83807E4B1C0BFB760033BF34 /* main.m */; };
+		83807E4F1C0BFB760033BF34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83807E4E1C0BFB760033BF34 /* AppDelegate.m */; };
+		83807E521C0BFB760033BF34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83807E511C0BFB760033BF34 /* ViewController.m */; };
+		83807E551C0BFB760033BF34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83807E531C0BFB760033BF34 /* Main.storyboard */; };
+		83807E571C0BFB770033BF34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83807E561C0BFB770033BF34 /* Assets.xcassets */; };
+		83807E621C0BFB770033BF34 /* BBCupertinoTVTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83807E611C0BFB770033BF34 /* BBCupertinoTVTestTests.m */; };
+		83807E6D1C0BFB770033BF34 /* BBCupertinoTVTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83807E6C1C0BFB770033BF34 /* BBCupertinoTVTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83807E5E1C0BFB770033BF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83807E3F1C0BFB760033BF34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83807E461C0BFB760033BF34;
+			remoteInfo = BBCupertinoTVTest;
+		};
+		83807E691C0BFB770033BF34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83807E3F1C0BFB760033BF34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83807E461C0BFB760033BF34;
+			remoteInfo = BBCupertinoTVTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83807E471C0BFB760033BF34 /* BBCupertinoTVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBCupertinoTVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83807E4B1C0BFB760033BF34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83807E4D1C0BFB760033BF34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83807E4E1C0BFB760033BF34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83807E501C0BFB760033BF34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		83807E511C0BFB760033BF34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		83807E541C0BFB760033BF34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83807E561C0BFB770033BF34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83807E581C0BFB770033BF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83807E5D1C0BFB770033BF34 /* BBCupertinoTVTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCupertinoTVTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83807E611C0BFB770033BF34 /* BBCupertinoTVTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCupertinoTVTestTests.m; sourceTree = "<group>"; };
+		83807E631C0BFB770033BF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83807E681C0BFB770033BF34 /* BBCupertinoTVTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBCupertinoTVTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83807E6C1C0BFB770033BF34 /* BBCupertinoTVTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBCupertinoTVTestUITests.m; sourceTree = "<group>"; };
+		83807E6E1C0BFB770033BF34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83807E441C0BFB760033BF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83807E5A1C0BFB770033BF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83807E651C0BFB770033BF34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83807E3E1C0BFB760033BF34 = {
+			isa = PBXGroup;
+			children = (
+				83807E491C0BFB760033BF34 /* BBCupertinoTVTest */,
+				83807E601C0BFB770033BF34 /* BBCupertinoTVTestTests */,
+				83807E6B1C0BFB770033BF34 /* BBCupertinoTVTestUITests */,
+				83807E481C0BFB760033BF34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83807E481C0BFB760033BF34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83807E471C0BFB760033BF34 /* BBCupertinoTVTest.app */,
+				83807E5D1C0BFB770033BF34 /* BBCupertinoTVTestTests.xctest */,
+				83807E681C0BFB770033BF34 /* BBCupertinoTVTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83807E491C0BFB760033BF34 /* BBCupertinoTVTest */ = {
+			isa = PBXGroup;
+			children = (
+				83807E4D1C0BFB760033BF34 /* AppDelegate.h */,
+				83807E4E1C0BFB760033BF34 /* AppDelegate.m */,
+				83807E501C0BFB760033BF34 /* ViewController.h */,
+				83807E511C0BFB760033BF34 /* ViewController.m */,
+				83807E531C0BFB760033BF34 /* Main.storyboard */,
+				83807E561C0BFB770033BF34 /* Assets.xcassets */,
+				83807E581C0BFB770033BF34 /* Info.plist */,
+				83807E4A1C0BFB760033BF34 /* Supporting Files */,
+			);
+			path = BBCupertinoTVTest;
+			sourceTree = "<group>";
+		};
+		83807E4A1C0BFB760033BF34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83807E4B1C0BFB760033BF34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83807E601C0BFB770033BF34 /* BBCupertinoTVTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				83807E611C0BFB770033BF34 /* BBCupertinoTVTestTests.m */,
+				83807E631C0BFB770033BF34 /* Info.plist */,
+			);
+			path = BBCupertinoTVTestTests;
+			sourceTree = "<group>";
+		};
+		83807E6B1C0BFB770033BF34 /* BBCupertinoTVTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83807E6C1C0BFB770033BF34 /* BBCupertinoTVTestUITests.m */,
+				83807E6E1C0BFB770033BF34 /* Info.plist */,
+			);
+			path = BBCupertinoTVTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83807E461C0BFB760033BF34 /* BBCupertinoTVTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83807E711C0BFB770033BF34 /* Build configuration list for PBXNativeTarget "BBCupertinoTVTest" */;
+			buildPhases = (
+				83807E431C0BFB760033BF34 /* Sources */,
+				83807E441C0BFB760033BF34 /* Frameworks */,
+				83807E451C0BFB760033BF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BBCupertinoTVTest;
+			productName = BBCupertinoTVTest;
+			productReference = 83807E471C0BFB760033BF34 /* BBCupertinoTVTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83807E5C1C0BFB770033BF34 /* BBCupertinoTVTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83807E741C0BFB770033BF34 /* Build configuration list for PBXNativeTarget "BBCupertinoTVTestTests" */;
+			buildPhases = (
+				83807E591C0BFB770033BF34 /* Sources */,
+				83807E5A1C0BFB770033BF34 /* Frameworks */,
+				83807E5B1C0BFB770033BF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83807E5F1C0BFB770033BF34 /* PBXTargetDependency */,
+			);
+			name = BBCupertinoTVTestTests;
+			productName = BBCupertinoTVTestTests;
+			productReference = 83807E5D1C0BFB770033BF34 /* BBCupertinoTVTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83807E671C0BFB770033BF34 /* BBCupertinoTVTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83807E771C0BFB770033BF34 /* Build configuration list for PBXNativeTarget "BBCupertinoTVTestUITests" */;
+			buildPhases = (
+				83807E641C0BFB770033BF34 /* Sources */,
+				83807E651C0BFB770033BF34 /* Frameworks */,
+				83807E661C0BFB770033BF34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83807E6A1C0BFB770033BF34 /* PBXTargetDependency */,
+			);
+			name = BBCupertinoTVTestUITests;
+			productName = BBCupertinoTVTestUITests;
+			productReference = 83807E681C0BFB770033BF34 /* BBCupertinoTVTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83807E3F1C0BFB760033BF34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Chris;
+				TargetAttributes = {
+					83807E461C0BFB760033BF34 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					83807E5C1C0BFB770033BF34 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 83807E461C0BFB760033BF34;
+					};
+					83807E671C0BFB770033BF34 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 83807E461C0BFB760033BF34;
+					};
+				};
+			};
+			buildConfigurationList = 83807E421C0BFB760033BF34 /* Build configuration list for PBXProject "BBCupertinoTVTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83807E3E1C0BFB760033BF34;
+			productRefGroup = 83807E481C0BFB760033BF34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83807E461C0BFB760033BF34 /* BBCupertinoTVTest */,
+				83807E5C1C0BFB770033BF34 /* BBCupertinoTVTestTests */,
+				83807E671C0BFB770033BF34 /* BBCupertinoTVTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83807E451C0BFB760033BF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83807E571C0BFB770033BF34 /* Assets.xcassets in Resources */,
+				83807E551C0BFB760033BF34 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83807E5B1C0BFB770033BF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83807E661C0BFB770033BF34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83807E431C0BFB760033BF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83807E521C0BFB760033BF34 /* ViewController.m in Sources */,
+				83807E4F1C0BFB760033BF34 /* AppDelegate.m in Sources */,
+				83807E4C1C0BFB760033BF34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83807E591C0BFB770033BF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83807E621C0BFB770033BF34 /* BBCupertinoTVTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83807E641C0BFB770033BF34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83807E6D1C0BFB770033BF34 /* BBCupertinoTVTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83807E5F1C0BFB770033BF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83807E461C0BFB760033BF34 /* BBCupertinoTVTest */;
+			targetProxy = 83807E5E1C0BFB770033BF34 /* PBXContainerItemProxy */;
+		};
+		83807E6A1C0BFB770033BF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83807E461C0BFB760033BF34 /* BBCupertinoTVTest */;
+			targetProxy = 83807E691C0BFB770033BF34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83807E531C0BFB760033BF34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83807E541C0BFB760033BF34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83807E6F1C0BFB770033BF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		83807E701C0BFB770033BF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83807E721C0BFB770033BF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BBCupertinoTVTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.cupertino.BBCupertinoTVTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83807E731C0BFB770033BF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BBCupertinoTVTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.cupertino.BBCupertinoTVTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83807E751C0BFB770033BF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBCupertinoTVTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.cupertino.BBCupertinoTVTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCupertinoTVTest.app/BBCupertinoTVTest";
+			};
+			name = Debug;
+		};
+		83807E761C0BFB770033BF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BBCupertinoTVTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.cupertino.BBCupertinoTVTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BBCupertinoTVTest.app/BBCupertinoTVTest";
+			};
+			name = Release;
+		};
+		83807E781C0BFB770033BF34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBCupertinoTVTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.cupertino.BBCupertinoTVTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBCupertinoTVTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		83807E791C0BFB770033BF34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BBCupertinoTVTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.cupertino.BBCupertinoTVTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BBCupertinoTVTest;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83807E421C0BFB760033BF34 /* Build configuration list for PBXProject "BBCupertinoTVTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83807E6F1C0BFB770033BF34 /* Debug */,
+				83807E701C0BFB770033BF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83807E711C0BFB770033BF34 /* Build configuration list for PBXNativeTarget "BBCupertinoTVTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83807E721C0BFB770033BF34 /* Debug */,
+				83807E731C0BFB770033BF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83807E741C0BFB770033BF34 /* Build configuration list for PBXNativeTarget "BBCupertinoTVTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83807E751C0BFB770033BF34 /* Debug */,
+				83807E761C0BFB770033BF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		83807E771C0BFB770033BF34 /* Build configuration list for PBXNativeTarget "BBCupertinoTVTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83807E781C0BFB770033BF34 /* Debug */,
+				83807E791C0BFB770033BF34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83807E3F1C0BFB760033BF34 /* Project object */;
+}
